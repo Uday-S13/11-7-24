@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    background-color: rgba(24, 160, 53, 0.974);
+}
+.add{
+  border-radius: 50px;
+  background-color: rgb(15, 91, 231);
+}
+.complete{
+    border-radius: 50px;
+    background-color: rgb(15, 91, 231);
+}.save{
+    border-radius: 50px;
+    background-color: rgb(53, 204, 53);
+}
+.empty{
+    border-radius: 50px;
+    background-color:red;
+}
+
+.main{
+    background-color:white;
+    /* padding-left: 30px; */
+    width: 500px;
+    border-radius: 30px;
+    height: 311px;
+    /* padding-top: 28px; */
+    padding: 30px 30px;
+}
+ol{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.button{
+    gap: 10px;
+   
+}
+.add,.empty,.save{
+    width: 100px;
+    height: 30px;
+}.complete{
+    height: 30px;
+}
+.todo{
+    background-color: rgb(222, 215, 215);
+}
